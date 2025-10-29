@@ -1,0 +1,26 @@
+.event-card {
+  border: 1px solid #ccc;     /* garis tepi kotak */
+  padding: 1rem;              /* jarak dalam kotak */
+  margin: 1rem auto;          /* jarak antar kotak */
+  border-radius: 8px;         /* sudut membulat */
+  background-color: #f9f9f9;  /* warna latar kotak */
+  max-width: 400px;           /* lebar maksimal */
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* bayangan tipis */
+  transition: transform 0.2s;
+}
+
+.event-card:hover {
+  transform: translateY(-5px); /* efek hover */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.event-card h2 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.event-card p {
+  margin: 0.2rem 0;
+  color: #555;
+}
